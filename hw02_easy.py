@@ -32,12 +32,14 @@ print("1й список без элементов второго: ",a)
 
 print ("")
 data = [1, 4, 5, 22, 343, 1000]
+data_new=[]
 k=0
 for i in data:
 	if i%2 == 0:
-		i = i/4
+		i = int(i/4)
+		data_new.append(i)
 	else:
-		i= i*2
-	data[k]=i
+		i= int(i*2)
+		data_new.append(i)
 	k = k + 1
-print (data)
+print (data_new)
