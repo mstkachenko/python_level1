@@ -7,7 +7,6 @@
 
 import math
 data = [2, -5, 8, 9, -25, 25, 4]
-k = 0
 data_new=[]
 for i in data:
     if i >= 0 and math.sqrt(i)==int(math.sqrt(i)):
@@ -15,7 +14,6 @@ for i in data:
         data_new.append(i)
     else:
         pass
-    k = k + 1
 print(data)
 print(data_new)
 
