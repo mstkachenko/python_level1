@@ -7,7 +7,6 @@
 
 import math
 data = [2, -5, 8, 9, -25, 25, 4]
-k = 0
 data_new=[]
 for i in data:
     if i >= 0 and math.sqrt(i)==int(math.sqrt(i)):
@@ -15,7 +14,6 @@ for i in data:
         data_new.append(i)
     else:
         pass
-    k = k + 1
 print(data)
 print(data_new)
 
@@ -127,7 +125,7 @@ print(spisok)
 # например, lst = [1 , 2, 4, 5, 6, 2, 5, 2], нужно получить lst2 = [1, 4, 6]
 
 print(" ")
-dim=[1,2,3,13,7,45,9,0,1,3,34]
+dim=[1,2,3,13,7,45,9,0,1,3,31]
 dim_new_a =[]
 dim_new_b =[]
 for i in dim:
